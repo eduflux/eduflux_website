@@ -1,0 +1,5 @@
+////////////////////////
+////	EDUFLUX		////		
+////////////////////////
+
+Edufluxt is a learning platform for educational purposes.
