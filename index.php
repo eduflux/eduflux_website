@@ -35,13 +35,13 @@ and open the template in the editor.
                 </li>
                 <li><a href="VMBO.php">VMBO</a>
                 </li>
-                <li><a href="#">HAVO</a>
+                <li><a href="HAVO.php">HAVO</a>
                 </li>
-                <li><a href="#">VWO</a>
+                <li><a href="VWO.php">VWO</a>
                 </li>
-                <li><a href="#">Over ons</a>
+                <li><a href="about.php">Over ons</a>
                 </li>
-                <li><a href="#">Contact</a>
+                <li><a href="contact.php">Contact</a>
                 </li>
             </ul>
         </div>
