@@ -61,14 +61,12 @@ and open the template in the editor.
         <!-- /.container -->
     </nav>
 
-    
+
     <div id="wrapper">
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="index.php">Home</a>
-                </li>
                 <li><a href="#">Onderdeel 1</a>
                 </li>
                 <li><a href="#">Onderdeel 2</a>

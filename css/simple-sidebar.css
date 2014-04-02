@@ -9,6 +9,7 @@
   width: 250px;
   background: #000;
   position: fixed;
+  top: 50px;                    /* Deze drukt navBar aan de linkerkant naar beneden voor 50 px */
   height: 100%;
   overflow-y: auto;
   z-index: 1000;
@@ -17,6 +18,8 @@
 
 #page-content-wrapper {
   width: 100%;
+  margin-top: 50px;             /* Deze drukt hele content 50 px naar beneden */
+
 }
 
 .sidebar-nav {
