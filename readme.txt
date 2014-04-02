@@ -11,4 +11,4 @@ Ik snap git nu.
 
 Nu wordt het op de site aangepast
 
-git is best wel relaxed
+git is best wel relaxen
