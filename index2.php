@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Basic Company Template for Bootstrap 3</title>
+    <title>EduFlux</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -26,18 +26,26 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.php">Eduflux</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#about">About</a>
+                    <li><a href="VMBO.php">VMBO</a>
                     </li>
-                    <li><a href="#services">Services</a>
+                    <li><a href="HAVO.php">HAVO</a>
                     </li>
-                    <li><a href="#contact">Contact</a>
+                    <li><a href="VWO.php">VWO</a>
+                    </li>
+                    </li>
+                    <li><a href="about.php">OverOns</a>
+                    </li>
+                    </li>
+                    <li><a href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -49,9 +57,9 @@
     <div class="container">
 
         <div class="jumbotron hero-spacer">
-            <h1>A Warm Welcome!</h1>
-            <p>Introduce your website content using this jumbotron! It's an awesome way to call attention to something that needs to be read! It's also a great alternative to using a banner image if you don't have a good quality picture!</p>
-            <p><a class="btn btn-primary btn-large">Call to action!</a>
+            <h1>EduFlux</h1>
+            <p>Het online leerplatform voor iedereen. Hier krijg je kennis over van alles en nog wat</p>
+            <p><a class="btn btn-primary btn-large">Log in</a><a class="btn btn-primary btn-large">Registreer</a>
             </p>
         </div>
 
@@ -59,7 +67,7 @@
 
         <div class="row">
             <div class="col-lg-12">
-                <h3>Latest Features</h3>
+                <h3>Overzicht</h3>
             </div>
         </div>
         <!-- /.row -->
@@ -68,11 +76,11 @@
 
             <div class="col-lg-3 col-md-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img src="images/vmbo_main.jpg" alt="VMBO Overzicht">
                     <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>This would be a great spot to feature some brand new products!</p>
-                        <p><a href="#" class="btn btn-primary">Buy Now!</a>  <a href="#" class="btn btn-default">More Info</a>
+                        <h3>VMBO</h3>
+                        <p>Leer snel en makkelijk.</p>
+                        <p><a href="#" class="btn btn-primary">Lesstof</a>  <a href="#" class="btn btn-default">Examens</a>
                         </p>
                     </div>
                 </div>
@@ -80,11 +88,11 @@
 
             <div class="col-lg-3 col-md-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img src="images/havo_main.jpg" alt="HAVO Overzicht">
                     <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>This would be a great spot to feature some brand new products!</p>
-                        <p><a href="#" class="btn btn-primary">Buy Now!</a>  <a href="#" class="btn btn-default">More Info</a>
+                        <h3>HAVO</h3>
+                        <p>Een duidelijk overzicht van je lesstof.</p>
+                        <p><a href="#" class="btn btn-primary">Lesstof</a>  <a href="#" class="btn btn-default">Examens</a>
                         </p>
                     </div>
                 </div>
@@ -92,11 +100,11 @@
 
             <div class="col-lg-3 col-md-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img src="images/vwo_main.jpg" alt="VWO Overzicht">
                     <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>This would be a great spot to feature some brand new products!</p>
-                        <p><a href="#" class="btn btn-primary">Buy Now!</a>  <a href="#" class="btn btn-default">More Info</a>
+                        <h3>VWO</h3>
+                        <p>De beste voorbereiding voor je eindexamens</p>
+                        <p><a href="#" class="btn btn-primary">Lesstof</a>  <a href="#" class="btn btn-default">Examens</a>
                         </p>
                     </div>
                 </div>
@@ -104,11 +112,11 @@
 
             <div class="col-lg-3 col-md-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img src="images/random_main.jpg" alt="Extra">
                     <div class="caption">
-                        <h3>Feature Label</h3>
-                        <p>This would be a great spot to feature some brand new products!</p>
-                        <p><a href="#" class="btn btn-primary">Buy Now!</a>  <a href="#" class="btn btn-default">More Info</a>
+                        <h3>Extra</h3>
+                        <p>Spoedcursussen voor verschillende onderwerpen</p>
+                        <p><a href="#" class="btn btn-primary">Overzicht</a>  <a href="#" class="btn btn-default">Random</a>
                         </p>
                     </div>
                 </div>
@@ -123,7 +131,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Company 2013</p>
+                    <p>Copyright &copy; EduFlux 2014</p>
                 </div>
             </div>
         </footer>
