@@ -1,3 +1,3 @@
 Steef je moet deze bestanden onder Eduflux in je localhost zetten.
 
-Dus: /srv/www/htdocs/Eduflux
+Dus: /srv/www/htdocs/Eduflux (Eduflux met hoofdletter)
