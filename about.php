@@ -28,7 +28,41 @@ and open the template in the editor.
 
 
 <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.php">Eduflux</a>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="VMBO.php">VMBO</a>
+                    </li>
+                    <li><a href="HAVO.php">HAVO</a>
+                    </li>
+                    <li><a href="VWO.php">VWO</a>
+                    </li>
+                    </li>
+                    <li><a href="about.php">OverOns</a>
+                    </li>
+                    </li>
+                    <li><a href="contact.php">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
     <div id="wrapper">
 
         <!-- Sidebar -->
