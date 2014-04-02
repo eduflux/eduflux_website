@@ -16,24 +16,58 @@ and open the template in the editor.
     <title>Starter Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-<link href="http://localhost/Eduflux/usersite/css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
-    <link href="http://localhost/Eduflux/usersite/css/simple-sidebaroud.css" rel="stylesheet">
-    <link href="http://localhost/Eduflux/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
 <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.php">Eduflux</a>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="http://localhost/Eduflux/index.php/home/VMBO">VMBO</a>
+                    </li>
+                    <li><a href="http://localhost/Eduflux/index.php/home/HAVO">HAVO</a>
+                    </li>
+                    <li><a href="http://localhost/Eduflux/index.php/home/VWO">VWO</a>
+                    </li>
+                    </li>
+                    <li><a href="http://localhost/Eduflux/index.php/home/about">OverOns</a>
+                    </li>
+                    </li>
+                    <li><a href="http://localhost/Eduflux/index.php/home/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
     <div id="wrapper">
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="http://localhost/Eduflux">Home</a>
+                <li class="sidebar-brand"><a href="index.php">Home</a>
                 </li>
-                <li><a href="">Onderdeel 1</a>
+                <li><a href="#">Onderdeel 1</a>
                 </li>
                 <li><a href="#">Onderdeel 2</a>
                 </li>
@@ -51,7 +85,7 @@ and open the template in the editor.
             <div class="content-header">
                 <h1>
                     <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
-                    VMBO
+                    Simple Sidebar
                 </h1>
             </div>
             <!-- Keep all page content within the page-content inset div! -->
@@ -82,8 +116,8 @@ and open the template in the editor.
     </div>
 
     <!-- JavaScript -->
-    <script src="http://localhost/Eduflux/usersite/js/jquery-1.10.2.js"></script>
-    <script src="http://localhost/Eduflux/usersite/js/bootstrap.js"></script>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
 
     <!-- Custom JavaScript for the Menu Toggle -->
     <script>
