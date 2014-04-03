@@ -13,14 +13,15 @@ and open the template in the editor.
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>VMBO</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="http://localhost/Eduflux/usersite/css/bootstrap.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://localhost/Eduflux/usersite/css/simple-sidebar.css" rel="stylesheet">
+    <link href="http://localhost/Eduflux/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
@@ -36,7 +37,7 @@ and open the template in the editor.
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Eduflux</a>
+                <a class="navbar-brand" href="http://localhost/Eduflux">Home</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -52,7 +53,7 @@ and open the template in the editor.
                     <li><a href="http://localhost/Eduflux/index.php/home/about">OverOns</a>
                     </li>
                     </li>
-                    <li><a href="http://localhost/Eduflux/index.php/home/contact">Contact</a>
+                    <li><a href="http://localhost/Eduflux/index.php/home/extra">Extra</a>
                     </li>
                 </ul>
             </div>
@@ -60,23 +61,35 @@ and open the template in the editor.
         </div>
         <!-- /.container -->
     </nav>
+
+
     <div id="wrapper">
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="index.php">Home</a>
+                <li class="sidebar-brand"><a "http://localhost/Eduflux/index.php/home/VWO">VWO</a>
                 </li>
-                <li><a href="#">Onderdeel 1</a>
+                <li><a href="#">Wiskunde</a>
                 </li>
-                <li><a href="#">Onderdeel 2</a>
+                <li><a href="#">Natuurkunde</a>
                 </li>
-                <li><a href="#">Onderdeel 3</a>
+                <li><a href="#">Scheikunde</a>
                 </li>
-                <li><a href="#">Onderdeel 4</a>
+                <li><a href="#">Nederlands</a>
                 </li>
-                <li><a href="#">Onderdeel 5</a>
+                <li><a href="#">Engels</a>
                 </li>
+                </li>
+                <li><a href="#">Frans</a>
+                </li>
+                </li>
+                <li><a href="#">Duits</a>
+                </li>
+                </li>
+                <li><a href="#">Geschiedenis</a>
+                </li>
+
             </ul>
         </div>
 

@@ -13,36 +13,92 @@ and open the template in the editor.
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>HAVO</title>
 
     <!-- Bootstrap core CSS -->
-<link href="http://localhost/Eduflux/usersite/css/bootstrap.css" rel="stylesheet">
+    <link href="http://localhost/Eduflux/usersite/css/bootstrap.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
-    <link href="http://localhost/Eduflux/usersite/css/simple-sidebaroud.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="http://localhost/Eduflux/usersite/css/simple-sidebar.css" rel="stylesheet">
     <link href="http://localhost/Eduflux/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
 <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://localhost/Eduflux">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="http://localhost/Eduflux/index.php/home/VMBO">VMBO</a>
+                    </li>
+                    <li><a href="http://localhost/Eduflux/index.php/home/HAVO">HAVO</a>
+                    </li>
+                    <li><a href="http://localhost/Eduflux/index.php/home/VWO">VWO</a>
+                    </li>
+                    </li>
+                    <li><a href="http://localhost/Eduflux/index.php/home/about">OverOns</a>
+                    </li>
+                    </li>
+                    <li><a href="http://localhost/Eduflux/index.php/home/extra">Extra</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
 
     <div id="wrapper">
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="http://localhost/Eduflux">Home</a>
+                <li class="sidebar-brand"><a "http://localhost/Eduflux/index.php/home/VWO">VWO</a>
                 </li>
-                <li><a href="">Onderdeel 1</a>
+                <li><a href="#">Wiskunde</a>
                 </li>
-                <li><a href="#">Onderdeel 2</a>
+                <li><a href="#">Natuurkunde</a>
                 </li>
-                <li><a href="#">Onderdeel 3</a>
+                <li><a href="#">Scheikunde</a>
                 </li>
-                <li><a href="#">Onderdeel 4</a>
+                <li><a href="#">Nederlands</a>
                 </li>
-                <li><a href="#">Onderdeel 5</a>
+                <li><a href="#">Engels</a>
                 </li>
+                </li>
+                <li><a href="#">Frans</a>
+                </li>
+                </li>
+                <li><a href="#">Duits</a>
+                </li>
+                </li>
+                <li><a href="#">Maatschappijwetenschappen</a>
+                </li>
+                </li>
+                <li><a href="#">Geschiedenis</a>
+                </li>
+                </li>
+                <li><a href="#">CKV</a>
+                </li>
+                </li>
+                <li><a href="#">KCV</a>
+                </li>
+
             </ul>
         </div>
 
@@ -51,7 +107,7 @@ and open the template in the editor.
             <div class="content-header">
                 <h1>
                     <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
-                    HAVO
+                    Simple Sidebar
                 </h1>
             </div>
             <!-- Keep all page content within the page-content inset div! -->
@@ -82,8 +138,8 @@ and open the template in the editor.
     </div>
 
     <!-- JavaScript -->
-    <script src="http://localhost/Eduflux/usersite/js/jquery-1.10.2.js"></script>
-    <script src="http://localhost/Eduflux/usersite/js/bootstrap.js"></script>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
 
     <!-- Custom JavaScript for the Menu Toggle -->
     <script>

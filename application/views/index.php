@@ -45,7 +45,7 @@
                     <li><a href="http://localhost/Eduflux/index.php/home/about">OverOns</a>
                     </li>
                     </li>
-                    <li><a href="http://localhost/Eduflux/index.php/home/contact">Contact</a>
+                    <li><a href="http://localhost/Eduflux/index.php/home/extra">Extra</a>
                     </li>
                 </ul>
             </div>

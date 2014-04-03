@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -17,15 +16,14 @@ and open the template in the editor.
     <title>Over Ons</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="http://localhost/Eduflux/usersite/css/bootstrap.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://localhost/Eduflux/usersite/css/simple-sidebar.css" rel="stylesheet">
+    <link href="http://localhost/Eduflux/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
-
-
 
 <body>
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
@@ -39,7 +37,7 @@ and open the template in the editor.
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Eduflux</a>
+                <a class="navbar-brand" href="http://localhost/Eduflux">Home</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,7 +53,7 @@ and open the template in the editor.
                     <li><a href="http://localhost/Eduflux/index.php/home/about">OverOns</a>
                     </li>
                     </li>
-                    <li><a href="http://localhost/Eduflux/index.php/home/contact">Contact</a>
+                    <li><a href="http://localhost/Eduflux/index.php/home/extra">Extra</a>
                     </li>
                 </ul>
             </div>
@@ -63,33 +61,40 @@ and open the template in the editor.
         </div>
         <!-- /.container -->
     </nav>
+
+
     <div id="wrapper">
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="index.php">Home</a>
+                <li class="sidebar-brand"><a "http://localhost/Eduflux/index.php/home/VWO">VWO</a>
                 </li>
-                <li><a href="VMBO.php">VMBO</a>
+                <li><a href="#">Wie zijn wij</a>
                 </li>
-                <li><a href="HAVO.php">HAVO</a>
+                <li><a href="#">Wat is Eduflux</a>
                 </li>
-                <li><a href="VWO.php">VWO</a>
+                <li><a href="#">FAQ</a>
                 </li>
-                <li><a href="about.php">Over ons</a>
+                <li><a href="#">Overeenkomst</a>
                 </li>
-                <li><a href="contact.php">Contact</a>
+                <li><a href="#">Beleid</a>
+                </li>
+                </li>
+                <li><a href="#">Vacatures</a>
+                </li>
+                </li>
+                <li><a href="#">Contact</a>
                 </li>
             </ul>
         </div>
-
 
         <!-- Page content -->
         <div id="page-content-wrapper">
             <div class="content-header">
                 <h1>
                     <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
-                    Wie zijn wij?
+                    Over Ons
                 </h1>
             </div>
             <!-- Keep all page content within the page-content inset div! -->
@@ -99,20 +104,19 @@ and open the template in the editor.
                         <p class="lead">This simple sidebar template has a hint of JavaScript to make the template responsive. It also includes Font Awesome icon fonts.</p>
                     </div>
                     <div class="col-md-6">
-                        <p class="well">
-                            <b>EduFlux</b>
-                            EduFlux richt zich op het toegankelijk maken van lesstof. We proberen voor leerlingen een goede uitleg van lesstof te verschaffen. Dit doen wij doormiddel van het doorlinken naar andere websites. Door het delen van links en videos hopen wij een zo compleet mogelijk beeld te geven van de lesstof. </br>
-
-                            Onze website is ingedeeld naar de verschillende lagen van het middelbare onderwijs. Jij als leerling kan zelf ook content aan onze site toevoegen. Op deze manier help je niet alleen jezelf maar ook alle andere leerlingen.
-
-                            Ons doel is om de drempel voor onderwijs toegankelijk te maken voor iedereen. Wat we zien is dat leerlingen niet de ruimte krijgen om zichzelf te ontwikkelen. 
-                        </p>
+                        <p class="well">The template still uses the default Bootstrap rows and columns.</p>
                     </div>
                     <div class="col-md-6">
-                        <p class="well">
-                            <h2>FlexApp</h2>
-                            Binnenkort komt de mobiele app van eduflux beschikbaar. Dit komt omdat wij baas zijn. Fuck yeah.
-                        </p>
+                        <p class="well">But the full-width layout means that you wont be using containers.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="well">Three Column Example</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="well">Three Column Example</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="well">You get the idea! Do whatever you want in the page content area!</p>
                     </div>
                 </div>
             </div>
